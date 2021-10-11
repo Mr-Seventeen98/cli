@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Mr-Seventeen98/cli#readme",
   "dependencies": {
+    "lodash": "^4.17.21",
     "quicktype-core": "^6.0.70"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "author": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "preferredName": { "type": "string" },
+        "age": { "type": "number" },
+        "gender": { "enum": ["male", "female", "other"] }
+      },
+      "required": ["name", "preferredName", "age", "gender"]
+    },
+    "title": { "type": "string" },
+    "publisher": { "type": "string" }
+  },
+  "required": ["author", "title", "publisher"]
+}
