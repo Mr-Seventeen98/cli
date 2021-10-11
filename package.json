@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Mr-Seventeen98/cli/issues"
   },
-  "homepage": "https://github.com/Mr-Seventeen98/cli#readme"
+  "homepage": "https://github.com/Mr-Seventeen98/cli#readme",
+  "dependencies": {
+    "quicktype-core": "^6.0.70"
+  }
 }
